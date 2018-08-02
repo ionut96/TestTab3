@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suite 1]">
+  <parameter name="app" value="demoqa"/>
+  <parameter name="platform" value="Desktop"/>
+  <test thread-count="5" name="Regression suite 1(failed)">
+    <classes>
+      <class name="Test.HomeTest">
+        <methods>
+          <include name="homePageTest"/>
+          <include name="initSet"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test.HomeTest -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [suite 1] -->
